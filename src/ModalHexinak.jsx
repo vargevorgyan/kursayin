@@ -25,8 +25,8 @@ export default function ModalHexinak({ showModal, setShowModal }) {
                 <div className="relative p-6 flex-auto">
                   <p className="my-4 text-blueGray-500 text-lg leading-relaxed change-color">
                     Ուսումնական հաստատություն՝ Երևանի Ինֆորմատիկայի Պետական
-                    Քոլեջ (ԵԻՊՔ) Կուրսային աշխատանքի անվանումը՝ social network
-                    Ծրագրի ժամկետը ՝ 22.12.2023
+                    Քոլեջ (ԵԻՊՔ) Կուրսային աշխատանքի անվանումը՝ Face recognition
+                    system Ծրագրի ժամկետը ՝ 22.12.2023
                   </p>
                 </div>
                 {/*footer*/}

@@ -10,7 +10,7 @@ export default function ModalUxecuyc({ showModal, setShowModal }) {
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                   <h3 className="text-3xl font-semibold">
-                    Ուղղեցույց։ Ինչպե՞ս օգտվել social network-ից
+                    Ուղղեցույց։ Ինչպե՞ս օգտվել face recognition system-ից
                   </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -24,13 +24,10 @@ export default function ModalUxecuyc({ showModal, setShowModal }) {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                   <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
-                    Ստեղծեք Ձեր Պրոֆիլը: Աջակցեք ձեր Պրոֆիլը նկարով և
-                    նկարագրությունով։ Կապվեք: Գտեք և կապվեք ընկերների հետ։
-                    Ընդունեք Նորություններ: Դիտեք լրահոսը, հայտնեք և թարմացրեք
-                    այն։ Հրապարակեք Բովանդակություն: Տարբերեք Ձեր
-                    մասնագիտականների հետ՝ մասնագիտականների, տոհմարիստների հետ
-                    էլ։ Դուրսգրվեք Խմբակցություններում: Մասնակցեք համալիրված
-                    ձեւաչափով խմբակցություններին։
+                    Բարի գալուստ մեր դեմքի ճանաչման համակարգ: Սկսելու համար
+                    գրանցեք ձեր դեմքը ցանկում: Օգտագործման ընթացքում ձեր դեմքը
+                    դրեք նշված տարածքում և պահպանեք սարքի անվտանգությունը ամուր
+                    գաղտնաբառովլ:
                   </p>
                 </div>
                 {/*footer*/}

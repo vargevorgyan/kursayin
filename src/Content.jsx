@@ -15,7 +15,7 @@ const Content = ({ setPage }) => {
       <ModalHexinak showModal={showModal2} setShowModal={setShowModal2} />
       <header className="py-4">
         <div className="container mx-auto flex items-center justify-between">
-          <h1 className="text-2xl font-bold">Social Network</h1>
+          <h1 className="text-2xl font-bold">Face recognition system</h1>
           <nav>
             <ul className="flex space-x-4">
               <li>
@@ -57,14 +57,16 @@ const Content = ({ setPage }) => {
       <div className="container mx-auto flex items-center justify-center h-screen">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">
-            Connect with friends and share your moments
+            Սեղմեք ներբեռնման կոճակը՝ Դեմքի ճանաչման համակարգի հավելվածը
+            ներբեռնոելու համար:
           </h1>
-          <p className="text-lg mb-6">
-            Join our social network and be part of the community.
-          </p>
-          <button className="bg-white text-blue-500 py-2 px-6 rounded-full hover:bg-blue-700 hover:text-white transition duration-300 focus:outline-none">
-            Get Started
-          </button>
+
+          <a
+            href="https://github.com/vargevorgyan/face-recognition"
+            className="bg-white text-blue-500 py-2 px-6 rounded-full hover:bg-blue-700 hover:text-white transition duration-300 focus:outline-none"
+          >
+            ներբեռնել !
+          </a>
         </div>
       </div>
     </>

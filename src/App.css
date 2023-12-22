@@ -17,12 +17,12 @@
     transform: translateY(0) translateX(0);
   }
 
-  33% {
+  50% {
     transform: translateY(calc(100vh - 50px));
   }
 
-  66% {
-    transform: translateX(calc(100vw - 50px));
+  100% {
+    transform: translateX(calc(100vw - 50px)) translateY(calc(100vh - 50px));
   }
 }
 
